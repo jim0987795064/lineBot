@@ -3,8 +3,8 @@
 # Topic
 
 # FSM_Image
-![image](https://github.com/jim0987795064/lineBot/blob/main/fsm.py)
-#使用方法
+![image](https://github.com/jim0987795064/lineBot/blob/main/fsm.png)
+# 使用方法
 # 1.點選任意鍵開始後，輸入1-6選擇影城的時刻表，或者是輸入search查看影評
 
 
