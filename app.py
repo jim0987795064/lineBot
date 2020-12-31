@@ -8,7 +8,7 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 from fsm import TocMachine
-from utils import send_text_message
+from utils import send_text_message,send_image_message
 
 load_dotenv()
 
@@ -148,7 +148,7 @@ def callback():
         if event.message.text.lower()=='fsm':
             if machine.state!="user":
                 machine.go_back()
-            send_image_message(event.reply_token,'')
+            send_image_message(event.reply_token,'https://github.com/jim0987795064/lineBot/blob/main/fsm.png')
             continue
         
         response=True
