@@ -2,7 +2,7 @@
 
 # Topic
  Movie Information Inquiry
-# FSM_Image
+# Finite State Machine Architecture
 ![image](https://github.com/jim0987795064/lineBot/blob/main/fsm.png)
 # How to Use
 # 1.After pressing any key to start, enter a number between 1-6 to select a cinema schedule, or enter `search` to check movie reviews.
